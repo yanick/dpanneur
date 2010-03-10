@@ -3,8 +3,8 @@
 # expected.  You have been warned.
 use inc::Module::Install;
 
-name 'cpancache';
-all_from 'lib/cpancache.pm';
+name 'dpanneur';
+all_from 'lib/dpanneur.pm';
 
 requires 'Catalyst::Runtime' => '5.80018';
 requires 'Catalyst::Plugin::ConfigLoader';
